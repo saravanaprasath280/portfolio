@@ -1,0 +1,299 @@
+<!DOCTYPE html><html lang="en"><head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="css/port.css">
+     <link href="css/boxicons.min.css" rel="stylesheet">
+    <link href="css/bootstrap.min.css" rel="stylesheet" crossorigin="anonymous">
+    <script src="js/bootstrap.bundle.min.js" crossorigin="anonymous"></script> 
+    <link rel="stylesheet" href="css/all.min.css">
+    <link rel="icon" href="images/logo.png" type="image/png" />
+<script defer src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
+<script>
+  window.addEventListener("DOMContentLoaded", function () {
+    emailjs.init({
+      publicKey: "_9pGY_WD6ozpQe3SX",
+    });
+  });
+</script>
+ 
+</head>
+<body>
+    <!-- *************************Navbar************************* -->
+    <header class="header">
+        <a href="#" class="logo">SaravanaPrasath</a>
+        <i class="bx bx-menu" id="menu" style="color:#ffffff"></i>
+        <nav class="navbar">
+            <a href="#home" style="--vlr:1"></a>         
+            <a href="#about" style="--vlr:1">About Me</a>
+            <a href="#education" style="--vlr:2">Education</a>
+            <a href="#skills" style="--vlr:3">Skills</a>
+            <a href="#projects" style="--vlr:4">Projects</a>
+            <a href="#internships" style="--vlr:5">Internships</a>
+            <a href="#contact" style="--vlr:6">Contact</a>
+        </nav>
+    </header>
+    <!-- *************************Home Section************************* -->
+    <section class="home" id="home">
+        <div class="text-content" style="margin-right:3%">
+            <h1>I'm SaravanaPrasath</h1>
+            <div class="text-animation">
+                <h2>Fullstack Developer</h2>
+            </div>
+            <p style="text-align: justify;">Driven full-stack developer with hands-on expertise in building dynamic, responsive, and scalable web applications. Proficient in both front-end and back-end technologies, transforming ideas and designs into high-performance digital experiences. Adept at writing clean, maintainable code and solving complex problems with practical, efficient solutions. Committed to continuous learning and staying ahead with modern tools, frameworks, and best practices to deliver seamless user experiences and robust applications.</p>
+            <div class="social-media">
+                <button class="btn"><a href="images/SD_Newresume.pdf" style="text-decoration: none;">Resume</a></button>
+            </div>
+            <div class="social-media">
+                <a href="https://github.com/saravanaprasath280"><i class="bx bxl-github" style="--vlr:7"></i></a>
+                <a href="https://www.linkedin.com/in/saravana-prasath-r/"><i class="bx bxl-linkedin" style="--vlr:9"></i></a>
+                <a href="mailto:saravanaprasath280@gmail.com"><i class="bx bx-envelope" style="--vlr:7"></i></a>
+
+            </div>
+        </div>
+        <img src="images/Saravana.jpeg">
+    </section>
+    <!-- *************************About Section************************* -->
+    <section class="about" id="about">
+        <h2 class="title">About <span>Me</span></h2>
+        <img src="images/Saravana.jpeg" alt="" class="aboutImg">
+        <div class="text-content2">
+            <h2>Fullstack Developer</h2>
+            <p id="shortText">
+               I am a passionate Full Stack Developer with a strong foundation in both frontend and backend technologies, dedicated to crafting engaging, scalable, and user-friendly web applications.
+            </p>
+            <p id="moreText" style="display: none;">
+               I develop responsive web applications with a strong emphasis on user experience, performance, and scalability.
+               Proficient in JavaScript, Java, Python, and Django for backend development.
+               Skilled in optimizing website speed, accessibility, and functionality.
+               Passionate about exploring new technologies and continuously refining problem-solving abilities.
+               Dedicated to writing clean, maintainable code and delivering high-quality digital solutions.
+            </p>
+            <button class="btn" id="readMoreBtn" onclick="toggleText()">Read More</button>
+        </div>
+    </section>    
+    <!-- *************************Education Section************************* -->
+    <section class="education" id="education">
+        <h2 class="title">My <span>Education</span></h2>
+        <div class="row">
+            <div class="column">
+                <div class="box">
+                    <div class="education-content">
+                        <div class="content">
+                            <div class="year"> Jun 2019–May 2022<i class="bx bxs-calendar"></i></div>
+                            <h3>Bachelor of Science in Computer Science</h3>
+                            <p>I completed my undergraduate studies with a Bachelor of Science in Computer Science at National College. During this period, I deepened my understanding of computational theories and practical applications, building on my early interest in computer applications. I engaged in academic projects and collaborative research assignments, which helped me strengthen my analytical thinking, problem-solving abilities, and teamwork skills further fueling my interest in the intersection of technology and the life sciences.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="box">
+                    <div class="education-content">
+                        <div class="content">
+                            <div class="year">Aug 2022–May 2024<i class="bx bxs-calendar"></i></div>
+                            <h3>Master of Science in Computer Science</h3>
+                            <p>I completed my postgraduate studies with a Master of Science in Computer Science at St. Joseph’s College, Trichy. This program allowed me to deepen my expertise in areas such as computer networks, programming, and software development, building upon the foundational knowledge acquired during my undergraduate studies. I engaged in hands-on development projects and coursework that emphasized real-world problem-solving, enhancing both my technical proficiency and collaborative abilities. This experience further solidified my interest in leveraging technology to design robust, scalable, and innovative software solutions.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- *************************Skills Section************************* -->
+      <section class="skills" id="skills">
+        <h2 class="title">My <span>Skills</span></h2>
+        <div class="wrapper">
+            <div class="skill-content">
+                <h3 class="skill-title">Frontend</h3>
+                <div class="skill-box skill-box1">
+                    <div class="single-skill">
+                        <span class="topic">HTML</span>
+                        <span class="topic">90%</span>
+                    </div>
+                    <div class="bar-side">
+                        <div class="bar bar-1"></div>
+                    </div>
+                    <div class="single-skill">
+                        <span class="topic">CSS</span>
+                        <span class="topic">80%</span>
+                    </div>
+                    <div class="bar-side">
+                        <div class="bar bar-2"></div>
+                    </div>
+                    <div class="single-skill">
+                        <span class="topic">JavaScript</span>
+                        <span class="topic">75%</span>
+                    </div>
+                    <div class="bar-side">
+                        <div class="bar bar-3"></div>
+                    </div>
+                    <div class="single-skill">
+                        <span class="topic">React</span>
+                        <span class="topic">70%</span>
+                    </div>
+                    <div class="bar-side">
+                        <div class="bar bar-4"></div>
+                    </div>
+                    <div class="single-skill">
+                        <span class="topic">Bootstrap</span>
+                        <span class="topic">70%</span>
+                    </div>
+                    <div class="bar-side">
+                        <div class="bar bar-5"></div>
+                    </div>
+                </div>
+            </div>
+            <div class="skill-content">
+                <h3 class="skill-title">Backend</h3>
+                <div class="skill-box skill-box2">
+                    <div class="single-skill">
+                        <span class="topic">JavaScript</span>
+                        <span class="topic">80%</span>
+                    </div>
+                    <div class="bar-side">
+                        <div class="bar bar-6"></div>
+                    </div>
+                    <div class="single-skill">
+                        <span class="topic">Java</span>
+                        <span class="topic">85%</span>
+                    </div>
+                    <div class="bar-side">
+                        <div class="bar bar-7"></div>
+                    </div>
+                    <div class="single-skill">
+                        <span class="topic">python</span>
+                        <span class="topic">75%</span>
+                    </div>
+                    <div class="bar-side">
+                        <div class="bar bar-8"></div>
+                    </div>
+                    <div class="single-skill">
+                        <span class="topic">Django</span>
+                        <span class="topic">70%</span>
+                    </div>
+                    <div class="bar-side">
+                        <div class="bar bar-9"></div>
+                    </div>
+                    <div class="single-skill">
+                        <span class="topic">SQL</span>
+                        <span class="topic">70%</span>
+                    </div>
+                    <div class="bar-side">
+                        <div class="bar bar-10"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- *************************Projects************************* -->
+    <section class="projects" id="projects">
+        <h2 class="title">My <span>Projects</span></h2>
+        <div class="card-container">
+            <div class="row">
+                <div class="col-12 col-md-4">
+                    <div class="card" style="border: 2px solid #ff00ee; margin-right:2%;">
+                        <img src="images/Seven-wonders.png" style="width:35vh; height:20vh; margin-top:3vh;">
+                        <div class="card-content">
+                            <h1 style="color: #c9ccd4;">Seven wonders of the world</h1>
+                            <p style="font-size: 2.2vh; margin-bottom:2vh;">This project showcases the Seven Wonders of the World through a visually appealing and responsive website. Utilizing HTML for structure, CSS for styling, and Bootstrap for responsive design, the site provides an engaging user experience across various devices. </p>
+                            <a href="" class="btn" style="width:20vh;">View Project</a>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="col-12 col-md-4">
+                    <div class="card" style="border: 2px solid #ff00ee;">
+                        <img src="images/Stopwatch.png" style="width:35vh; height:21vh; margin-top:3vh;">
+                        <div class="card-content">
+                            <h1 style="color: #c9ccd4;">Stopwatch Web Application</h1>
+                            <p style="font-size: 2.2vh; margin-bottom:4vh;">The Stopwatch Web Application is a simple yet efficient timer tool built using HTML, CSS, and JavaScript. It features start, stop, and reset functionality, providing an intuitive user experience for tracking time with precision. </p>
+                            <a href="" class="btn" style="width:20vh;">View Project</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-12 col-md-4">
+                    <div class="card" style="border: 2px solid #ff00ee; margin-right:2%; padding-top:2vh; padding-left:2vh;">
+                        <img src="images/Todo.png" style="width:40vh; height:23vh; margin-top:1vh;">
+                        <div class="card-content">
+                            <h1 style="color: #c9ccd4;">Todo List</h1>
+                            <p style="font-size: 2.2vh;">A simple and efficient Todo List web application to help you organize tasks, set priorities, and track progress seamlessly. Stay productive with an intuitive interface and easy task management. </p>
+                            <a href="" class="btn" style="width:20vh;">View Project</a>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!--Internships Section-->
+    <section class="internships" id="internships">
+        <h2 class="title text-center mb-5">My <span>Internships</span></h2>
+        <div class="container">
+            <div class="row justify-content-center">
+    
+                <!-- Internship Card Template -->
+                <div class="col-12 col-md-6 col-lg-4 mb-4">
+                    <div class="card2 h-100 text-center" style="border: 2px solid #ff00ee; background-color: rgb(255 255 255 / 10%); padding: 2vh;">
+                        <img src="images/Vdart Academy.jpg" class="img-fluid mb-3" style="height:35vh; width:100%; object-fit: cover;" alt="Vdart Logo">
+                        <div class="card-body">
+                            <h2 class="card-title" style="color: #ff00ee; margin-bottom: 0.5%;">Full Stack Developer Intern</h2>
+                            <h3 class="card-subtitle" style="color: #c9ccd4; margin-bottom: 1%;">Vdart Academy</h3>
+                            <p class="card-text" style="font-size: 1.9vh; margin-top: 1vh;">Worked as a Full Stack Developer Intern at Vdart Academy for 4 months, gaining hands-on experience in both frontend and backend development. Developed and optimized dynamic web applications using HTML, CSS, JavaScript, Python, and Django.</p>
+                            <p><strong>Duration:</strong> 4 Months</p>
+                            <a href="images/Saravana Prasath vdart.pdf" class="btn btn-primary">View Certificate</a>
+                        </div>
+                    </div>
+                </div>
+    
+                <!-- Virtualtech -->
+                <div class="col-12 col-md-6 col-lg-4 mb-4">
+                    <div class="card2 h-100 text-center" style="border: 2px solid #ff00ee; background-color: rgb(255 255 255 / 10%); padding: 2vh;">
+                        <img src="images/virtualtech.jpg" class="img-fluid mb-3" style="height:35vh; width:100%; object-fit: cover;" alt="Skillcraft Logo">
+                        <div class="card-body">
+                            <h2 class="card-title" style="color: #ff00ee; margin-bottom: 0.5%;">Java developer Intern</h2>
+                            <h3 class="card-subtitle" style="color:#c9ccd4; margin-bottom: 1%;">Virtual Techz</h3>
+                            <p class="card-text" style="font-size: 1.9vh;">Developed a real-time chat application using Java, implementing socket programming and multithreading to support multiple user interactions. Enhanced communication efficiency and system responsiveness by integrating a client-server architecture with a user-friendly GUI.</p>
+                            <p style="margin-bottom: 6%;"><strong>Duration:</strong> 5 Month</p>
+                            <a href="images/saravana virtualtech.pdf" class="btn btn-primary">View Certificate</a>
+                        </div>
+                    </div>
+                </div>
+    
+            </div>
+        </div>
+    </section>
+    
+    <!-- *************************Contact Section************************* -->
+    <section class="contact" id="contact">
+        <h2 class="title">Contact<span>Me</span></h2>
+        <form action="#" id="contact-form">
+            <div class="input-box">
+                <input type="text" id="name" required placeholder="Full Name">
+                <input type="email" id="email" required placeholder="Email">
+            </div>
+            <div class="input-box">
+                <input type="tel" id="number" required placeholder="Mobile Number">
+                <input type="text" id="subject" required placeholder="Subject For">
+            </div>
+            <textarea name="" id="message" cols="30" rows="10" placeholder="Message" required></textarea>
+            <input type="submit" value="Send Message" class="btn">
+        </form>
+       
+
+    </section>
+
+    <a href="#" id="scrollBtn" onclick="toggleScroll()">
+            <i class="bx bx-down-arrow-alt"></i>
+    </a>
+
+    <footer id="footer">
+        <p>© 2025 All rights reserved</p>
+    </footer>    
+
+   <script src="js/port.js"></script>
+
+
+</body>
+</html>
